@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Poke API</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            
+            <a class="navbar-brand" href="#">PokeDex</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link text-capitalize active" data-filter="all" href="#" id="allPokemon">All Pokemon</a>
+                <a class="nav-link text-capitalize" data-filter="normal" href="#">normal</a>
+                <a class="nav-link text-capitalize" data-filter="fighting" href="#">fighting</a>
+                <a class="nav-link text-capitalize" data-filter="poison" href="#">poison</a>
+                <a class="nav-link text-capitalize" data-filter="ground" href="#">ground</a>
+                <a class="nav-link text-capitalize" data-filter="grass" href="#">grass</a>
+                <a class="nav-link text-capitalize" data-filter="fire" href="#">fire</a>
+              </div>
+            </div>
+
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        <div class="row mt-3 justify-content-center">
+            <div class="col-md-8 ">
+                <h1 class="text-center">PokeDex</h1>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Pokemon Name.." id="search-input">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark" type="button" id="search-button">Search</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    
+        <hr>
+        <div class="halaman">
+          <!-- <li class="page-isi previous-page disable"><a class="page-linklink" href="#">Prev</a></li>
+          <li class="page-isi current-page aktif"><a class="page-linklink" href="#">1</a></li>
+          <li class="page-isi dots"><a class="page-linklink" href="#">...</a></li>
+          <li class="page-isi current-page"><a class="page-linklink" href="#">5</a></li>
+          <li class="page-isi current-page"><a class="page-linlinkk" href="#">6</a></li>
+          <li class="page-isi dots"><a class="page-linklink" href="#">...</a></li>
+          <li class="page-isi current-page"><a class="page-linklink" href="#">10</a></li>
+          <li class="page-isi next-page"><a class="page-linklink" href="#">Next</a></li> -->
+        </div>
+        
+      
+
+        <div class="row justify-content-center text-center position-relative poke-list" id="pokemon-list">
+          
+        </div>
+        <br>
+
+        
+
+    
+    </div>
+
+    
+    
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <!-- External Javascript -->
+    <script src="js/coba.js"></script>
+
+  </body>
+</html>
